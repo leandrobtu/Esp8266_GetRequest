@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
  
-const char* ssid = "AGU-Student";
-const char* password = "Un7a38uN";
+const char* ssid = "SSID";
+const char* password = "SENHA";
 
 //const char* ssid = "Raspberry";
 //const char* password = "Ankara006";
@@ -42,6 +42,6 @@ void loop() {
   }
          Serial.println(payload);                     //Print the response payload
   payload = "";
-  delay(5000);    //Send a request every 30 seconds
+  delay(10000);    //Send a request every 30 seconds
  
 }
